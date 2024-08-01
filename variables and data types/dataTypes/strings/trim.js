@@ -14,6 +14,7 @@ function trimmingMultipleLines(multiLinStr) {
     .map((item) => item.trim())
     .join("\n");
 }
+""
 let finalTrimmingMultipleLines = trimmingMultipleLines(
   "   Hello World   \n   This is a test   \n   JavaScript is fun   "
 );
